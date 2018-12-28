@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" id="0" name="ContryInfoService" package="CountryInfoService" tests="5" time="1.774">
+  <testsuite errors="0" failures="0" id="0" name="ContryInfoService" package="CountryInfoService" tests="5" time="1.969">
     <properties>
       <property name="soapui.properties" value="soapui.properties" />
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -18,7 +18,7 @@
       <property name="sun.java.launcher" value="SUN_STANDARD" />
       <property name="sun.os.patch.level" value="" />
       <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-      <property name="user.dir" value="C:\Users\raghu.rc\.jenkins\workspace\Webservice -Api" />
+      <property name="user.dir" value="C:\Users\raghu.rc\.jenkins\workspace\Api-Webservice" />
       <property name="java.runtime.version" value="1.8.0_152-b16" />
       <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
       <property name="java.endorsed.dirs" value="C:\Program Files (x86)\SmartBear\SoapUI-5.4.0\jre\lib\endorsed" />
@@ -63,10 +63,10 @@
       <property name="sun.desktop" value="windows" />
       <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
     </properties>
-    <testcase name="Capitalcity" time="0.815" />
-    <testcase name="CountriesUsingCurrency" time="0.267" />
-    <testcase name="CurrencyNameByCountry" time="0.228" />
-    <testcase name="CountryIntPhoneCode" time="0.229" />
-    <testcase name="FullCountryInfo" time="0.235" />
+    <testcase name="Capitalcity" time="0.968" />
+    <testcase name="CountriesUsingCurrency" time="0.272" />
+    <testcase name="CurrencyNameByCountry" time="0.247" />
+    <testcase name="CountryIntPhoneCode" time="0.239" />
+    <testcase name="FullCountryInfo" time="0.243" />
   </testsuite>
 </testsuites>
