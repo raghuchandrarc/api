@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+       <project name="SoapTest" default="testreport" basedir=".">
+          <target name="soapui">
+       <exec dir="." executable="C:/Program Files (x86)/SmartBear/SoapUI-5.4.0/bin/testrunner.bat">
+       <arg line="-j -f 'C:/soapTest/Testsuite Reports' 'C:/soapTest/CountryInfoService-soapui-project.xml'"/>
+       </exec>
+       </target>
+          <target name="testreport" depends="soapui">
+          <junitreport todir="C:/soapTest/Testsuite Reports">
+          <fileset dir="C:/soapTest/Testsuite Reports">
+          <include name="TEST-*.xml"/>
+          </fileset>
+          <report todir="C:/soapTest/Testsuite Reports/htmlReport" styledir="C:/apache-ant-1.10.5/etc" format="noframes">
+          </report>
+          </junitreport>
+       </target>   
+    </project>
