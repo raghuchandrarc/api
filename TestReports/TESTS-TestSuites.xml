@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" id="0" name="ContryInfoService" package="CountryInfoService" tests="5" time="1.969">
+  <testsuite errors="0" failures="0" id="0" name="ContryInfoService" package="CountryInfoService" tests="5" time="1.936">
     <properties>
       <property name="soapui.properties" value="soapui.properties" />
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -63,10 +63,10 @@
       <property name="sun.desktop" value="windows" />
       <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
     </properties>
-    <testcase name="Capitalcity" time="0.968" />
-    <testcase name="CountriesUsingCurrency" time="0.272" />
-    <testcase name="CurrencyNameByCountry" time="0.247" />
-    <testcase name="CountryIntPhoneCode" time="0.239" />
-    <testcase name="FullCountryInfo" time="0.243" />
+    <testcase name="Capitalcity" time="0.888" />
+    <testcase name="CountriesUsingCurrency" time="0.281" />
+    <testcase name="CurrencyNameByCountry" time="0.257" />
+    <testcase name="CountryIntPhoneCode" time="0.251" />
+    <testcase name="FullCountryInfo" time="0.259" />
   </testsuite>
 </testsuites>
