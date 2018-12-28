@@ -10,7 +10,7 @@
           <fileset dir="C:/Users/Public/Documents/Webservices/TestReports">
           <include name="TEST-*.xml"/>
           </fileset>
-          <report todir="C:/Users/Public/Documents/Webservices/TestReports/htmlReport" styledir="C:/apache-ant-1.10.5/etc" format="frames">
+          <report todir="C:/Users/Public/Documents/Webservices/TestReports/htmlReport" styledir="C:/apache-ant-1.10.5/etc" format="noframes">
           </report>
           </junitreport>
        </target>   
