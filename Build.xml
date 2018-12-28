@@ -2,13 +2,13 @@
        <project name="SoapTest" default="testreport" basedir=".">
           <target name="soapui">
        <exec dir="." executable="C:/Program Files (x86)/SmartBear/SoapUI-5.4.0/bin/testrunner.bat">
-       <arg line="-j -f 'C:/Users/Public/Documents/ApiTestReport' 'C:/soapTest/CountryInfoService-soapui-project.xml'"/>
+       <arg line="-j -f 'C:/Users/Public/Documents/ApiTestReport/xml' 'C:/soapTest/CountryInfoService-soapui-project.xml'"/>
        </exec>
        </target>
           <target name="testreport" depends="soapui">
-          <junitreport todir="C:/Users/Public/Documents/ApiTestReport">
+          <junitreport todir="C:/Users/Public/Documents/ApiTestReport/xml">
                    	
-          	<fileset dir="C:/Users/Public/Documents/ApiTestReport">
+          	<fileset dir="C:/Users/Public/Documents/ApiTestReport/xml">
           	
           <include name="TEST-*.xml"/>
           </fileset>
