@@ -1,0 +1,25 @@
+Status: FAILED
+Time Taken: 21200
+Size: 0
+Timestamp: Fri Dec 28 14:42:34 IST 2018
+TestStep: CapitalCity - Request 1
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://webservices.oorsprong.org refused
+
+----------------- Properties ------------------------------
+Endpoint: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CapitalCity>
+         <web:sCountryISOCode>IN</web:sCountryISOCode>
+      </web:CapitalCity>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -

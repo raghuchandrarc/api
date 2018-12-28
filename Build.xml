@@ -7,7 +7,9 @@
        </target>
           <target name="testreport" depends="soapui">
           <junitreport todir="C:/Users/Public/Documents/Webservices/TestReports">
-          <fileset dir="C:/Users/Public/Documents/Webservices/TestReports">
+                   	
+          	<fileset dir="C:/Users/raghu.rc/.jenkins/workspace/Api-Webservice/TestReports">
+          	
           <include name="TEST-*.xml"/>
           </fileset>
           <report todir="C:/Users/Public/Documents/Webservices/TestReports/htmlReport" styledir="C:/apache-ant-1.10.5/etc" format="noframes">
